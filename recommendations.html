@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Recommendations
+    </title>
+    <link rel="stylesheet" href="Styles/styles.css">    
+     <link rel="stylesheet" href="general.css">
+  <script src="script.js"></script>
+    <script>
+        function refreshPage() {
+                    location.reload();
+    }
+    </script>
+    </head>
+    <body>
+        <div class="header" >
+       <div class="left-section">
+        <div class="Name">
+        Avichal Sinha
+       </div>
+        <div class="Email">
+        <div class="mail-icon">
+          <img src="Image/Mail-icon.jpg"
+          style="height: 20px;width: 20px;">
+        </div>
+        <div class="ID" style="color: white;
+        font-size: small;">
+         <a href="avichalsinha@yahoo.com"
+         style="color: azure;">avichalsinha@yahoo.com</a></div>
+        </div>
+        <div class="Call" 
+        style="display: flex; flex-direction: row;
+        margin-left: 10px;">
+        <div class="call-icon" 
+        style="margin-right: 5px;">
+          <img src="Image/call-icon.jpg"
+          style="height: 20px;width: 20px;
+          border-radius: 100%;">
+        </div>        
+        <div class="Number" 
+        style="color: white;font-size: small;">
+        8292976987</div>
+        </div>
+       </div>       
+       <div class="right-section">
+        <div class="container" 
+        style="display: flex;
+        column-gap: 15px;
+        row-gap: 30px;border-width:10px;
+        margin-top: 35px;margin-right: 5px;">
+        <div class="About me">
+        <a href="index.html"style="font-size: small;
+        color: azure;" >About Me</a>       
+        </div>
+        <div class="skills">  
+        <a  href="skills.html" target="_blank"
+        style=" font-size:small;
+        color: azure;"> Skills</a>
+        </div>
+        <div class="Projects" >
+        <a href="projects.html" target="_blank"
+         style="font-size: small;
+        color: azure;">Projects</a>
+        </div>
+        <div class="recommendations">
+          <a href="recommendations.html"
+          target="_blank"style="font-size: small;
+        color: azure;">Recommendations</a>
+        </div>
+        </div>               
+       </div>        
+      </div>
+        <h1 style="margin-top: 50px;">
+            Leave a Recommendation
+        </h1>
+        <div class="textbox-container1">
+<input type="text" class="textbox1" placeholder="Name(Optional)">
+        </div>
+        <div class="textbox-container2">
+<input type="text" class="textbox2" placeholder="Message">
+        </div>
+        <div class="submit">
+            <button onclick=" refreshPage(),alert('Thank you for your recommendation')
+     " style="margin-left: 45%; height: 30px;width:80px;
+            color: blueviolet; border-color: blueviolet;">
+                Submit
+            </button>
+        </div>
+        <div class="arrow" >
+           <a href="index.html"> 
+            <img src="Image/arrow.png" alt="Back to home page" style=" height: 20px; width: 20px;
+            transform: translateX(1000px);">
+           <p style="transform: translateX(1000px) translateY(-15px) ;">Back to Home</p> 
+        </a>
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
